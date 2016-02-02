@@ -1,40 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <t:SlideMenuView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:t="clr-namespace:SlideOverKit" x:Class="SlideOverKit.Sample.PopOverView">
-	<Grid Padding="15,10,15,30">
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="8*" />
-			<ColumnDefinition Width="2*" />
-		</Grid.ColumnDefinitions>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="2*" />
-			<RowDefinition Height="2*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="1*" />
-			<RowDefinition Height="2*" />
-		</Grid.RowDefinitions>
-		<Label Text="Tuesday" FontSize="24" XAlign="Center" Grid.ColumnSpan="2" />
-		<Label Text="15 Dec 2015" FontSize="24" XAlign="Center" Grid.ColumnSpan="2" Grid.Row="1" />
-		<Label Text="Occurences Per day" XAlign="Start" Grid.Column="0" Grid.Row="2" />
-		<Label Text="74" XAlign="End" Grid.Column="1" Grid.Row="2" />
-		<Label Text="Past 7 days" XAlign="Start" Grid.Column="0" Grid.Row="3" />
-		<Label Text="178" XAlign="End" Grid.Column="1" Grid.Row="3" />
-		<Label Text="Past 30 days" XAlign="Start" Grid.Column="0" Grid.Row="4" />
-		<Label Text="385" XAlign="End" FontAttributes="Bold" Grid.Column="1" Grid.Row="4" />
-		<Label Text="Top affected version" XAlign="Start" Grid.Column="0" Grid.Row="6" />
-		<Label Text="1.2.1" XAlign="End" Grid.Column="1" Grid.Row="6" />
-		<Label Text="Top affected OS" XAlign="Start" Grid.Column="0" Grid.Row="7" />
-		<Label Text="iOS 9.1" XAlign="End" Grid.Column="1" Grid.Row="7" />
-		<Label Text="Incomplete" XAlign="Start" Grid.Column="0" Grid.Row="9" />
-		<Label Text="0" XAlign="End" Grid.Column="1" Grid.Row="9" />
-		<Label Text="Not Submitted" XAlign="Start" Grid.Column="0" Grid.Row="10" />
-		<Label Text="0" XAlign="End" Grid.Column="1" Grid.Row="10" />
-		<Button x:Name="DoneButton" Text="Done" Grid.ColumnSpan="2" Grid.Row="11" />
-	</Grid>
+
+	<StackLayout Padding="15,10,15,30" Spacing="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+			
+		<Label HeightRequest="160" Text="Build some Awesome SlideOver's" FontSize="24" XAlign="Center" />
+
+		<Image HeightRequest="100" Source="xamconsulting.png" ></Image>
+
+		<Button HeightRequest="30" x:Name="DoneButton" Text="Close"  />
+
+	</StackLayout>
+
 </t:SlideMenuView>

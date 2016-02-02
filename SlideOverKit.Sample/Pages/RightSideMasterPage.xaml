@@ -38,6 +38,6 @@
 		<Grid Grid.Column="1" Grid.Row="4" BackgroundColor="#348ECA">
 			<Image Source="MessageFilled.png" WidthRequest="50" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Center" />
 		</Grid>
-		<Image Grid.ColumnSpan="2"  Grid.Row="5" WidthRequest="10" HeightRequest="10" HorizontalOptions="Center" VerticalOptions="Center"  Source="DoubleDown.png"/>
+		<Image Grid.ColumnSpan="2"  Grid.Row="5" WidthRequest="10" HeightRequest="10" HorizontalOptions="Center" VerticalOptions="Center"  Source="DoubleDown_Black.png"/>
 	</Grid>
 </t:SlideMenuView>

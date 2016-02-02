@@ -49,6 +49,7 @@ namespace SlideOverKit.Sample
                     WidthRequest = 25,
                     HeightRequest = 25,
                 });
+                mainLayout.Padding = new Thickness (0, 5);
                 // In this case, you must set both WidthRequest and HeightRequest.
                 this.WidthRequest = 50; 
                 this.HeightRequest = 200;
@@ -64,13 +65,14 @@ namespace SlideOverKit.Sample
             if (orientation == MenuOrientation.TopToBottom) {
                 mainLayout.Orientation = StackOrientation.Vertical;
                 mainLayout.Children.Insert (4, new Image {
-                    Source = "DoubleDown.png",
+                    Source = "DoubleDown_White.png",
                     WidthRequest = 25,
                     HeightRequest = 25,
                 });
+                mainLayout.Padding = new Thickness (0, 5);
                 this.WidthRequest = 50;
                 this.HeightRequest = 200;
-                this.DraggerButtonHeight = 30;
+                this.DraggerButtonHeight = 40;
                 this.LeftMargin = 100;
 
             }
@@ -82,10 +84,11 @@ namespace SlideOverKit.Sample
                     WidthRequest = 25,
                     HeightRequest = 25,
                 });
+                mainLayout.Padding = new Thickness (5, 0);
                 this.WidthRequest = 200;
                 this.HeightRequest = 50;
                 // In this case, it should be DraggerButtonWidth not DraggerButtonHeight
-                this.DraggerButtonWidth = 30;
+                this.DraggerButtonWidth = 40;
 
                 // In this menu direction you must set TopMargin.
                 this.TopMargin = 30;
@@ -99,6 +102,7 @@ namespace SlideOverKit.Sample
                     WidthRequest = 25,
                     HeightRequest = 25,
                 });
+                mainLayout.Padding = new Thickness (5, 0);
                 this.WidthRequest = 200;
                 this.HeightRequest = 50;
                 this.DraggerButtonWidth = 30;

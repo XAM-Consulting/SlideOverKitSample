@@ -83,11 +83,11 @@
     <Reference Include="Xamarin.Forms.Platform">
       <HintPath>..\packages\Xamarin.Forms.1.5.1.6471\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="SlideOverKit.iOS">
-      <HintPath>..\Library\SlideOverKit.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="SlideOverKit">
-      <HintPath>..\Library\SlideOverKit.dll</HintPath>
+      <HintPath>..\packages\SlideOverKit.1.0.0\lib\Xamarin.iOS10\SlideOverKit.dll</HintPath>
+    </Reference>
+    <Reference Include="SlideOverKit.iOS">
+      <HintPath>..\packages\SlideOverKit.1.0.0\lib\Xamarin.iOS10\SlideOverKit.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -106,7 +106,6 @@
     <BundleResource Include="Resources\Icon-Small-40.png" />
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
-    <BundleResource Include="Resources\DoubleDown.png" />
     <BundleResource Include="Resources\MessageFilled.png" />
     <BundleResource Include="Resources\Pencil.png" />
     <BundleResource Include="Resources\Enter.png" />
@@ -126,8 +125,12 @@
     <BundleResource Include="Resources\Save_Blue.png" />
     <BundleResource Include="Resources\Timeline_Blue.png" />
     <BundleResource Include="Resources\USBConnected_Color.png" />
+    <BundleResource Include="Resources\dog.jpg" />
     <BundleResource Include="Resources\DoubleRight.png" />
     <BundleResource Include="Resources\DoubleUp.png" />
+    <BundleResource Include="Resources\DoubleDown_Black.png" />
+    <BundleResource Include="Resources\DoubleDown_White.png" />
+    <BundleResource Include="Resources\xamconsulting.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
