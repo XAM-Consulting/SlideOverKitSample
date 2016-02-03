@@ -131,6 +131,9 @@
     <BundleResource Include="Resources\DoubleDown_Black.png" />
     <BundleResource Include="Resources\DoubleDown_White.png" />
     <BundleResource Include="Resources\xamconsulting.png" />
+    <BundleResource Include="Resources\Map_Background.png" />
+    <BundleResource Include="Resources\Filter_Blue.png" />
+    <BundleResource Include="Resources\UpIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />

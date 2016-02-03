@@ -126,6 +126,9 @@
     <AndroidResource Include="Resources\drawable\DoubleDown_White.png" />
     <AndroidResource Include="Resources\drawable\DoubleDown_Black.png" />
     <AndroidResource Include="Resources\drawable\xamconsulting.png" />
+    <AndroidResource Include="Resources\drawable\Filter_Blue.png" />
+    <AndroidResource Include="Resources\drawable\Map_Background.png" />
+    <AndroidResource Include="Resources\drawable\UpIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SlideOverKit.Sample\SlideOverKit.Sample.csproj">

@@ -51,6 +51,10 @@
     <Compile Include="Pages\PopOverView.xaml.cs">
       <DependentUpon>PopOverView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PopOverWithTriangleView.xaml.cs">
+      <DependentUpon>PopOverWithTriangleView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PopOverWithTrianglePage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
@@ -85,6 +89,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PopOverView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PopOverWithTriangleView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
